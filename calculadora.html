@@ -13,12 +13,14 @@
     <script type="text/javascript">
 
         function calcular(){
-            var valor1 = document.getElementById('val1');
-            var valor2 = document.getElementById('val2');
-            var operacao = document.getElementById('operacao');
+            var valor1 = document.getElementById('val1').value;
+            var valor2 = document.getElementById('val2').value;
+            
+            var operacao = document.getElementById('operacao').value;
             valor1 = parseFloat(valor1);
             valor2 = parseFloat(valor2);
-            var resultado;
+            var resultado = null
+         
 
             switch (operacao){
 
@@ -40,9 +42,18 @@
                     break;  
             }
             document.getElementById('resultado').value = resultado;
+            alert(resultado)
+
+     
 
 
         }
+
+        function teste(){
+            alert('teste')
+        }
+
+  
 
 
     </script>
@@ -74,7 +85,7 @@
             <button class="btn-primary" onclick="calcular();">Calcular</button>
             <br>
             Resultado:
-            <input readonly type="text">
+            <input readonly type="text" id="resultado">
             
         </div>
         
