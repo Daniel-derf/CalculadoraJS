@@ -1,0 +1,38 @@
+#operacoes{
+    margin-bottom: 20px;
+
+    /* BORDA VERMELHA */
+    /*border-color: red;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;*/
+
+
+
+}
+
+.btn-primary{
+    margin-top: 7%;
+    
+}
+
+body {
+    background-color: grey;
+
+    
+}
+
+.titulo {
+
+    border-color: blue;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+}
+
+h1{
+    color: red;
+    
+}
+
+.row {
+    color: white;
+}
